@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "916746997083",
+    "project_id": "dhanmitraapp",
+    "storage_bucket": "dhanmitraapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916746997083:android:f36750bef5b2c8b44a1e7e",
+        "android_client_info": {
+          "package_name": "com.dhanmitra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMUpVjy_Ybb39afgNg2FNaxxWa0MJwbbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916746997083:android:32f92a97274e8d0d4a1e7e",
+        "android_client_info": {
+          "package_name": "com.example.dhanmitra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMUpVjy_Ybb39afgNg2FNaxxWa0MJwbbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

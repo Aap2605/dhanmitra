@@ -1,0 +1,82 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dhanmitra">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="DhanMitra"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DhanMitra"
+        android:usesCleartextTraffic="true">
+
+        <!-- Splash Screen -->
+        <activity
+            android:name=".SplashActivity"
+            android:label="Splash Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Login Flow -->
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login"
+            android:exported="true" />
+
+        <!-- Register Flow -->
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Create Account"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterOtpActivity"
+            android:label="Register OTP"
+            android:exported="true" />
+
+        <!-- Dashboard -->
+        <activity
+            android:name=".DashboardActivity"
+            android:label="Dashboard"
+            android:exported="true" />
+
+        <!-- Loan Sections -->
+        <activity
+            android:name=".LoanCategoryActivity"
+            android:label="Loan Categories"
+            android:exported="true" />
+        <activity
+            android:name=".LoanDetailsActivity"
+            android:label="Loan Details"
+            android:exported="true" />
+        <activity
+            android:name=".HomeLoanActivity"
+            android:label="Home Loan"
+            android:exported="true" />
+        <activity
+            android:name=".EducationLoanActivity"
+            android:label="Education Loan"
+            android:exported="true" />
+        <activity
+            android:name=".PersonalLoanActivity"
+            android:label="Personal Loan"
+            android:exported="true" />
+        <activity
+            android:name=".CarLoanActivity"
+            android:label="Car Loan"
+            android:exported="true" />
+        <activity
+            android:name=".BusinessLoanActivity"
+            android:label="Business Loan"
+            android:exported="true" />
+
+    </application>
+
+</manifest>
